@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException
 
 # Start a new browser session
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-wait = WebDriverWait(driver, 10)  # Waits up to 10 seconds
+wait = WebDriverWait(driver, 30)  # Waits up to 10 seconds
 
 try:
     # Open the CRM login page
